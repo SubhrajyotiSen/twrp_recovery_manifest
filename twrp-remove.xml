@@ -172,7 +172,6 @@
   <remove-project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs,pdk-fs" />
   <remove-project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
-  <remove-project path="external/opencv3" name="platform/external/opencv3" />
   <remove-project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk-fs" />
   <remove-project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk-fs" />
   <remove-project path="external/pdfium" name="platform/external/pdfium" groups="pdk" />
@@ -413,7 +412,6 @@
 
   <!-- Omni -->
 
-  <remove-project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="omnirom" revision="android-7.1" />
   <remove-project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omnirom" revision="android-7.1" />
   <remove-project path="packages/apps/Interfacer" name="android_packages_apps_Interfacer" remote="omnirom" revision="android-7.1" />
   <remove-project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-7.1" />
