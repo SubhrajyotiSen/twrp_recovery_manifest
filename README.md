@@ -11,5 +11,5 @@ Then to sync up:
 
 Then to build:
 
-     cd <source-dir>; . build/envsetup.sh; make -j8 recoveryimage
+     build/envsetup.sh && make clean && breakfast osprey &&  make -j8 recoveryimage
 
